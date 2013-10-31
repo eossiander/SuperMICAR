@@ -1,0 +1,23 @@
+This repository contains files associated with the manuscript "Using textual cause-of-death 
+data to study drug poisoning deaths."
+
+File list:
+DrugWord.lst:    list of words that denote drugs
+NonDrugWord.lst: list of words that do not denote drugs
+ListWords.sas:   SAS program to parse the separate words from the cause-of-death literals,
+                 combine individual words into phrases where needed, and classify words as
+                 being drug words or not.
+generic.sas:     SAS program containing SAS formats to classify drug words to their generic 
+                 names, their general class, their specific ICD-10 T-code, or their ICD-10 
+                 category.
+Spell.sas:       SAS program containing a SAS format for spelling correction. This is invoked 
+                 in the program ListWords.sas.
+epi1.Rnw:        Sweave file with explanatory text, SAS scripts, and R scripts for analysing
+                 the SuperMICAR data. 
+agerate.dat, 
+flagrate.dat, 
+adjflagrate.dat, 
+intentpercent.dat, 
+namerate.dat:    These are all intermediate data tabulations that are created by SAS scripts 
+                 in Epi1.Rnw, and used by the R scripts in Epi1.Rnw. With the R scripts in 
+                 Epi1.Rnw, These data files can be used to recreate the graphs in the manuscript.
