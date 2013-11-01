@@ -1,0 +1,13 @@
+intent,deathstot,flag,deaths,percent
+suicide,1461,Neither,536,36.687200548
+suicide,1461,Both,59,4.038329911
+suicide,1461,Prescription,849,58.110882957
+suicide,1461,Illicit,17,1.1635865845
+undetermined,495,Neither,85,17.171717172
+undetermined,495,Both,58,11.717171717
+undetermined,495,Prescription,290,58.585858586
+undetermined,495,Illicit,62,12.525252525
+unintentional,5850,Neither,614,10.495726496
+unintentional,5850,Both,917,15.675213675
+unintentional,5850,Prescription,3272,55.931623932
+unintentional,5850,Illicit,1047,17.897435897
